@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Privacy Policy — Elle's Assistant (Five &amp; Done)</title>
+    <title>Privacy Policy — Elle's Assistant</title>
     <style>
       :root { color-scheme: light dark; }
       body {
@@ -22,6 +22,13 @@
       h1 { font-size: 1.7rem; margin-bottom: 0.25rem; }
       h2 { font-size: 1.15rem; margin-top: 2rem; }
       .updated { color: #888; font-size: 0.9rem; margin-top: 0; }
+      .disclaimer {
+        border: 1px solid rgba(127,127,127,0.35);
+        border-radius: 8px;
+        padding: 0.85rem 1rem;
+        font-size: 0.95rem;
+        margin: 1.5rem 0;
+      }
       ul { padding-left: 1.25rem; }
       code { background: rgba(127,127,127,0.18); padding: 0.1em 0.35em; border-radius: 4px; }
       footer { margin-top: 3rem; font-size: 0.85rem; color: #888; }
@@ -29,57 +36,64 @@
   </head>
   <body>
     <h1>Privacy Policy</h1>
-    <p class="updated">Elle's Assistant — an internal tool of Five &amp; Done. Last updated 25 June 2026.</p>
+    <p class="updated">Elle's Assistant — a personal project by Elle-Marie DeFrain. Last updated 25 June 2026.</p>
+
+    <div class="disclaimer">
+      <strong>Independent personal project.</strong> Elle's Assistant ("the app") is an
+      independent tool built and operated personally by Elle-Marie DeFrain. It is
+      <strong>not</strong> a product of, affiliated with, endorsed by, or operated on behalf
+      of any employer or organization. Each person who uses it connects their own accounts and
+      acts only with their own existing access.
+    </div>
 
     <p>
-      Elle's Assistant ("the app") is a private, internal tool used by Five &amp; Done
-      staff to help draft and publish Jira tickets and track time. Access is restricted
-      to a fixed allow-list of company email addresses; the app is not offered to the
-      general public.
+      The app is a private utility that helps the people invited to it draft and publish their
+      own Jira tickets and keep simple time notes. Access is limited to a fixed list of invited
+      email addresses; the app is not offered to the general public.
     </p>
 
     <h2>What we store</h2>
-    <p>When you sign in and use the app, we store the following:</p>
+    <p>When you sign in and use the app, the following is stored:</p>
     <ul>
       <li><strong>Sign-in identity</strong> — your Google account email address and display name.</li>
       <li>
         <strong>Authorization tokens</strong> — Google and (if you connect Jira) Atlassian
-        OAuth access/refresh tokens, plus your Atlassian Cloud ID. These are held in the
-        app's server-side session store and are used only to call Google and Jira APIs on
-        your behalf.
+        OAuth access/refresh tokens, plus your Atlassian Cloud ID. These are held in the app's
+        server-side session store and are used only to call Google and Jira APIs on your behalf,
+        as you direct.
       </li>
       <li>
-        <strong>Time-tracking data</strong> — time-grid entries you enter, stored against
-        your email address.
+        <strong>Time notes</strong> — time-tracking entries you enter, stored against your
+        email address.
       </li>
     </ul>
 
     <h2>What we do not store</h2>
     <ul>
-      <li>We do not store your Atlassian Account ID.</li>
-      <li>We do not copy or retain Jira issue content or other people's personal data from Jira.</li>
-      <li>We do not sell, rent, or share your data with third parties.</li>
+      <li>No Atlassian Account ID.</li>
+      <li>No Jira issue content or other people's personal data pulled from Jira.</li>
+      <li>Your data is never sold, rented, or shared with third parties.</li>
     </ul>
 
     <h2>How your data is used</h2>
     <p>
-      Stored data is used solely to operate the app for you: keeping you signed in,
-      creating and updating Jira tickets under your own account when you connect Jira,
-      accessing your Google Calendar where applicable, and saving your time entries.
+      Stored data is used solely to operate the app for you: keeping you signed in, creating and
+      updating Jira tickets under <em>your own</em> account when you connect Jira, accessing your
+      Google Calendar where applicable, and saving your time notes. The app acts only within the
+      access your own accounts already grant.
     </p>
 
     <h2>Retention</h2>
     <p>
-      Session and token data persists for the life of your session and is removed when the
-      session expires or you sign out / disconnect Jira. Time-grid entries are retained
-      until deleted by an administrator. You may request deletion of your data at any time
-      using the contact below.
+      Session and token data persists for the life of your session and is removed when the session
+      expires or you sign out / disconnect Jira. Time notes are retained until deleted. You may
+      request deletion of your data at any time using the contact below.
     </p>
 
     <h2>Third-party services</h2>
     <p>
-      The app integrates with Google (sign-in and Calendar) and Atlassian Jira. Your use of
-      those services is also governed by their respective privacy policies.
+      The app integrates with Google (sign-in and Calendar) and Atlassian Jira. Your use of those
+      services is also governed by their own respective privacy policies and terms.
     </p>
 
     <h2>Contact</h2>
@@ -88,6 +102,6 @@
       <a href="mailto:edefrain@fiveanddone.com">edefrain@fiveanddone.com</a>.
     </p>
 
-    <footer>© Five &amp; Done. Internal tool — Elle's Assistant.</footer>
+    <footer>An independent personal project by Elle-Marie DeFrain. Not affiliated with any employer or organization.</footer>
   </body>
 </html>
